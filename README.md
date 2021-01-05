@@ -7,8 +7,9 @@ submission, in the time you have available. The more working requirements you im
 better your score. However, do not attempt to complete all requirements at the expense of neat
 and maintainable code and a working solution!</h6>
 
-***String Calculator Requirements***
+***String Calculator Requirements***<br>
 Pick from the following for your test submission:
+
 1. Create a simple String calculator with a method int Add(string numbers)
 a) The method will return the sum of comma-separated integer numbers parsed from the numbers parameter (for an empty string it will return 0). Examples for the numbers parameter are: “” or “1” or “1,2”
 b) The Add method should handle an unknown amount of numbers
@@ -25,7 +26,7 @@ b) the first line is optional. all existing scenarios should still be supported.
 
 5. The Add method should ignore any numbers bigger than 1000, so adding 2 + 1001 = 2
 
-6. Allow the Add method to support Delimiters of any length with the following format: “//[delimiter]\n” for example: “//[*\**]\n1*\**2**\*3” should return 6.
+6. Allow the Add method to support Delimiters of any length with the following format: “//[delimiter]\n” for example: “//[\*\*\*]\n1\*\*\*2\*\*\*3” should return 6.
 
 7. In addition to point 6, allow the Add method to support multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
 
