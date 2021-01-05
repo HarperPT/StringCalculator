@@ -1,11 +1,11 @@
-<h1>String Calculator
+<h1>String Calculator</h1>
 
 <h6>The objective is to write a simple string calculator application with the following requirements
 listed below.
 You should choose how many or few of the requirements below to implement for the test
 submission, in the time you have available. The more working requirements you implement the
 better your score. However, do not attempt to complete all requirements at the expense of neat
-and maintainable code and a working solution!</>
+and maintainable code and a working solution!</h6>
 
 ***String Calculator Requirements***
 Pick from the following for your test submission:
