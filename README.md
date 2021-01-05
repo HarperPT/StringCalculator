@@ -28,6 +28,6 @@ b) the first line is optional. all existing scenarios should still be supported.
 
 6. Allow the Add method to support Delimiters of any length with the following format: “//[delimiter]\n” for example: “//[\*\*\*]\n1\*\*\*2\*\*\*3” should return 6.
 
-7. In addition to point 6, allow the Add method to support multiple delimiters like this: “//[delim1][delim2]\n” for example “//[*][%]\n1*2%3” should return 6.
+7. In addition to point 6, allow the Add method to support multiple delimiters like this: “//[delim1][delim2]\n” for example “//[\*][%]\n1*2%3” should return 6.
 
-8. In addition to point 7, allow the Add method to support multiple delimiters of any length like this: “//[delim1][delim2]\n” for example “//[**][%%%]\n1**2%%%3” should return 6.
+8. In addition to point 7, allow the Add method to support multiple delimiters of any length like this: “//[delim1][delim2]\n” for example “//[\*\*][%%%]\n1\*\*2%%%3” should return 6.
