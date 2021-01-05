@@ -1,22 +1,13 @@
-String Calculator
+<h1>String Calculator
 
-The objective is to write a simple string calculator application with the following requirements
+<h6>The objective is to write a simple string calculator application with the following requirements
 listed below.
 You should choose how many or few of the requirements below to implement for the test
 submission, in the time you have available. The more working requirements you implement the
 better your score. However, do not attempt to complete all requirements at the expense of neat
-and maintainable code and a working solution!
-Assessment criteria (what are we looking for?):
-1. Code is neatly structured, maintainable and understandable.
-2. Good code comments help us understand your thinking and implementation.
-3. The implemented requirements work as described by this document.
-4. Your submitted project (source files) compiles into an executable and runs.
-5. Avoid quick hacks! We’re looking for good planning and good software design.
-Your submitted solution should be a single set of code that implements some or all of the
-requirements below.
-You can choose to implement this as a Test Driven Development (TDD) exercise, although this
-is not mandatory. Use the approach that best works for you in the time available.
-String Calculator Requirements
+and maintainable code and a working solution!</>
+
+***String Calculator Requirements***
 Pick from the following for your test submission:
 1. Create a simple String calculator with a method int Add(string numbers)
 a) The method will return the sum of comma-separated integer numbers parsed from
